@@ -857,7 +857,7 @@
         function displayResults() {
             let filteredData = [...animeData];
 
-            // Apply filters
+            // Apply filter
             if (document.getElementById('onlyCompleted').checked) {
                 filteredData = filteredData.filter(anime => anime.status === 'COMPLETED');
             }
